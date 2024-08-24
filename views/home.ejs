@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video List with Player</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Video List</h2>
+            <ul>
+                <li><a href="#" data-video="VID-20190219-WA0010.mp4">Video 1</a></li>
+                <li><a href="VID-20190530-WA0013" data-video="VID-20190530-WA0013.mp4">Video 2</a></li>
+                <li><a href="VID-20190531-WA0000" data-video="VID-20190531-WA0000.mp4">Video 3</a></li>
+                <li><a href="VID-20190531-WA0001 - Copy.mp4" data-video="VID-20190531-WA0001 - Copy.mp4">Video 4</a></li>
+                <li><a href="VID-20190531-WA0001.mp4" data-video="VID-20190531-WA0001.mp4">Video 5</a></li>
+            </ul>
+        </div>
+        <div class="video-player">
+            <video id="videoPlayer" controls>
+                <source id="videoSource" src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <script src="/home.js"></script>
+</body>
+</html>
